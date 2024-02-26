@@ -72,7 +72,7 @@ body a:link {
 /*--------------------------------poster part---------------------------------*/
 
 .poster {
-  background-image: url(/image/banner-bg.png);
+  background-image: url(../image/banner-bg.png);
   height: 600px;
   background-size: cover;
   background-repeat: repeat;
@@ -240,7 +240,7 @@ body a:link {
 /*------------------------------------------services-------------------------------------------------------*/
 
 .services {
-  background-image: url(/image/service-bg.jpg);
+  background-image: url(../image/service-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1291,7 +1291,7 @@ body a:link {
 /*-----------------------------------eCommerce-----------------------------------------------*/
 
 .eCommerce-solution {
-  background-image: url(/image/ecom-solution-bg.jpg);
+  background-image: url(../image/ecom-solution-bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -2156,10 +2156,10 @@ ul {
 }
 --------*/
 
-/*------------------comming-soon----------------------*/
+/*------------------coming-soon----------------------*/
 
 .comming-soon {
-  background-image: url(/image/coming-soon-img.jpg);
+  background-image: url(../image/coming-soon-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
