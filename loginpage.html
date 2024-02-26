@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/aos css.css" />
+    <link rel="stylesheet" href="css/Bootstrapcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!------------------navbar---------------------------->
+
+    <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-logo" href="index.html">
+          <img src="image/logo.png" alt="company-logo" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar1"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Features
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="featurespage1.html">
+                  NDR Management</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="featurespage2.html"
+                  >Hyperlocal Services</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="featurespage3.html">Early COD</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="featurespage4.html"
+                  >Multiple Pickup Locations</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="featurespage5.html">Postpaid</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="featurespage6.html"
+                  >Dedicated Account Manager</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="featurespage7.html"
+                  >All Features</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Plans
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="planpage1.html">Pricing</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="planpage2.html">Enterprise</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="planpage3.html"
+                  >Shipping Rate Calculator</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Integrations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="integration1.html"
+                  >Channel Integrations</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="integration2.html"
+                  >Carrier Integrations</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="integration3.html"
+                  >API Integrations</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="resourcespage1.html"
+                  >Customer Stories</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">e Brouchure</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="resourcespage3.html"
+                  >Warehousing</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="resourcespage4.html"
+                  >Track Orders</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+          <div class="button">
+            <a href="resourcespage4.html" class="btn"> Tracking</a>
+          </div>
+          <div class="button">
+            <a href="loginpage.html" class="btn"> Log in</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-------------login------------->
+
+    <section class="login">
+      <div class="container">
+        <div class="d-flex justify-content-center h-100">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="login-heading">Please Login Here</h3>
+              <div class="d-flex justify-content-end social_icon">
+                <span><i class="fab fa-facebook-square" data-aos="fade-down"></i></span>
+                <span><i class="fab fa-google-plus-square" data-aos="fade-down" data-aos-delay="100"></i></span>
+                <span><i class="fab fa-twitter-square" data-aos="fade-down" data-aos-delay="200"></i></span>
+              </div>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="input-group form-group" data-aos="fade-down">
+                  <div class="input-group-prepend login-input-icon">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="username">
+                  
+                </div>
+                <div class="input-group form-group mt-4" data-aos="fade-down" data-aos-delay="100">
+                  <input type="password" class="form-control" placeholder="password">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                  </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                      <div class="form-check text-dark">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="form2Example31"
+                          checked
+                        />
+                        <label class="form-check-label" for="form2Example31" data-aos="fade">
+                          Remember me
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 pl-5">
+                      <a href="#!" class="forget-link" data-aos="fade">Forgot password?</a>
+                    </div>
+                </div>
+                <div class="form-group" data-aos="fade-down">
+                  <input type="submit" value="Login" class="btn float-right login_btn">
+                </div>
+              </form>
+            </div>
+            <div class="card-footer text-dark font-weight-bold text-center" data-aos="fade">
+              <p>Copyright 2023 ©....</p>
+              <p>Designed by : Bhaskar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/BootstrapjQuary.js"></script>
+    <script src="js/Bootstrapjs3.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:"200",
+        duration:"1000",
+      });
+    </script>
+  </body>
+</html>
